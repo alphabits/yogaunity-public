@@ -1,0 +1,157 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 120%;
+    color: #666;
+}
+
+header, section, footer, nav {
+    max-width: 70rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3.5rem 0;
+}
+
+header {
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 180%;
+    line-height: 0.95;
+}
+
+header span {
+    /*font-style: italic;*/
+    color: rgb(135,204,218);
+    font-size: 60%;
+}
+
+header img {
+    width: 30%;
+    max-width: 16rem;
+}
+
+#mainmenu {
+    padding: 1.5rem 0;
+}
+
+#mainmenu ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#mainmenu li {
+    float: left;
+    margin: 0 2%;
+}
+
+#mainmenu a {
+    text-decoration: none;
+    color: #666;
+}
+
+#mainmenu .active a {
+    font-weight: 700;
+}
+
+section h1 {
+    font-family: "Open Sans";
+    font-weight: normal;
+    /*font-style: italic;*/
+    font-size: 280%;
+    color: #80d4c8;
+    margin-left: -4px;
+}
+
+#prices h1 {
+    margin-left: -8px;
+}
+
+h2 {
+    font-size: 100%;
+    font-weight: 800;
+    color: #3db7b3;
+}
+
+section, footer, nav {
+    border-top: 3px dotted #80d4c8;
+}
+
+section a {
+    color: #3db7b3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.col {
+    float: left;
+    margin-right: 3%;
+}
+
+.reason {
+    width: 30%;
+}
+
+.reason .icon {
+    text-align: center;
+    padding: 3% 0 5% 0;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+#practical-info .col, #prices .col {
+    width: 48%;
+}
+
+#about img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#about .text {
+    float: left;
+    width: 50%;
+}
+
+#about .portrait {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#about img {
+    width: 40%;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+footer {
+    font-style: italic;
+}
+
+footer a {
+    color: #3db7b3;
+    text-decoration: none;
+}
+
+@media (max-width: 50rem) {
+    .col {
+        float: none;
+        margin-right: 0;
+        width: 100% !important;
+    }
+
+    #about .portrait, #about .text {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+    }
+}
