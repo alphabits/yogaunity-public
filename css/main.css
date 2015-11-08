@@ -58,7 +58,7 @@ section h1 {
     font-family: "Open Sans";
     font-weight: normal;
     /*font-style: italic;*/
-    font-size: 280%;
+    font-size: 260%;
     color: #80d4c8;
     margin-left: -4px;
 }
@@ -147,6 +147,10 @@ footer a {
         float: none;
         margin-right: 0;
         width: 100% !important;
+    }
+
+    section h1 {
+        font-size: 200%;
     }
 
     #about .portrait, #about .text {
